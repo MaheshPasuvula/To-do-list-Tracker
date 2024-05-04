@@ -1,0 +1,23 @@
+/* App.module.css */
+.App {
+  max-width: 600px 600px;
+  margin: 20px, 20px, 20px, 20px ;
+  padding: 20px;
+  background-color: #2a2424;
+  font-family: Arial, sans-serif;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color:tomato;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
+}

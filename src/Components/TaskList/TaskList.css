@@ -1,0 +1,39 @@
+.task-list {
+    list-style: none;
+    padding: 0;
+    color: white;
+    
+  }
+  
+  .task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .task-list li.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  
+  .task-list li > div {
+    display: flex;
+    gap: 10px;
+    color:whitesmoke;
+  }
+  
+  .task-list button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .task-list button:hover {
+    background-color: #0056b3;
+  }
+  
